@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />      
+        <link rel="stylesheet" href="Content/bootstrap.css" type="text/css" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="app/zebraApp.js"></script>
+
+</head>
+<body>
+
+
+    <div ng-app="zebraApp" >
+        <span style="border:solid" ng-repeat="n in [42, 42, 43, 43] track by $index">
+            {{n}}
+        </span>
+        
+    </div>
+    
+
+</body>
+</html>
